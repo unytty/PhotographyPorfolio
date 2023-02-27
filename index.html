@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photography Portfolio Website</title>
+
+    <!------ GOOGLE FONT (Monserrat)------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!---- ICONSCOUT CDN ------>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!---- SWIPER JS ------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!---- CSS ----->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!----- NAVIGATION MENU -------->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo"><img src="./img/imgbin_photography-logo-black-and-white-photographer-png.png" alt="Nav Logo"></a>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+            </ul>
+            <ul class="nav__socials">
+                <li><a href="https://instagram.com" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
+                <li><a href="https://twitter.com"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="https://youtube.com"><i class="uil uil-youtube"></i></a></li>
+            </ul>
+            <button class="nav__toggle-btn" id="nav__toggle-open"><i class="uil uil-bars"></i></button>
+            <button class="nav__toggle-btn" id="nav__toggle-close"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-------- END OF NAVIGATION MENU ---------->
+    <!----- HEADER ---->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <div class="header__image-bg"></div>
+                <div class="header__image-lg"><img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="header image"></div>
+                <div class="header__image-sm"><img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="header image"></div>
+            </div>
+            <div class="header__right">
+                <div class="header__head">
+                    <div class="empty header__empty"></div>
+                    <a class="header__tag">#Best Travel Photographer 2022</a>
+                </div>
+                <h1>See The Beauty Of The World Through My Lense</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eaque nemo beatae, ut veritatis, veniam totam perspiciatis enim! Delectus velit laboriosam ullam repellendus nam id fugit saepe, deserunt explicabo?</p>
+                <a href="mailto:kate.horakova@gmail.com" class="header__btn-md">Let's Talks</a>
+            </div>
+        </div>
+    </header>
+
+    <!---- pomeranče a tlačítko -->
+    <div class="header__frames">
+        <div class="header__frame">
+            <img src="https://images.unsplash.com/photo-1543076659-9380cdf10613?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="orange in bowl">
+        </div>
+        <div class="header__frame">
+            <img src="https://images.unsplash.com/photo-1592187270271-9a4b84faa228?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="slice orange">
+        </div>
+    </div>
+    <a href="mailto:kate.horakova@gmail.com" class="contact__btn header__btn">
+        <i class="uil uil-arrow-up-right"></i>
+        <p>CONTACT - SEND ME AN EMAIL</p>
+    </a>
+    <!----- end of HEADER ---->
+    <!---- ABOUT ------>
+
+    <section id="about">
+        <div class="container about__container">
+            <h2 class="about__tittle">About<br/>Diana Ayi</h2>
+            <a href="mailto:kate.horakova@gmail.com" class="contact__btn about__btn">
+                <i class="uil uil-arrow-up-right"></i>
+                <p>CONTACT - SEND ME AN EMAIL</p>
+            </a>
+            <div class="about__left">
+                <div class="about__image">
+                    <div class="about__image-bg"></div>
+                    <div class="about__image-lg">
+                        <img src="https://images.unsplash.com/photo-1558715037-450df9fd23bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="About Diana Ayi">
+                    </div>
+                    <div class="about__image-sm">
+                        <img src="https://images.unsplash.com/photo-1558715037-450df9fd23bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="About Diana Ayi">
+                    </div>
+                </div>   
+            </div>
+            <div class="about__right">
+                <div class="empty about__empty"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa sunt ratione dicta accusamus ut.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam beatae officia corrupti enim optio voluptates maiores, voluptate autem aut, doloremque, pariatur excepturi.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem distinctio autem rerum iste?</p>
+            </div>
+        </div>
+    </section>
+<!------ End of ABOUT------------>
+<!------ GALLERY ---------->
+
+    <section id="gallery">
+        <div class="container gallery__container swiper mySwiper">
+            <div class="gallery__head">
+                <h2 class="gallery__title">My Gallery</h2>
+                <div class="empty gallery__empty"></div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi numquam dolor, dolore soluta commodi cupiditate deleniti ducimus nemo atque. Ipsam animi, iste odit laboriosam unde impedit quam. Voluptate accusamus placeat, impedit nobis illo, totam quae alias autem neque sint porro. In minus eveniet nesciunt dignissimos, ullam exercitationem tempore asperiores explicabo, beatae incidunt necessitatibus consequuntur aperiam.
+            </p>
+            <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="1">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1578854955076-970394ef2512?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="2">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1572236765732-a85e052039b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="3">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1530758731136-edfd4cdc6ee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80" alt="4">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1517925662132-78f2f6e1f908?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="5">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1516117525866-d85459db7457?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="6">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1527456823722-26bf5e6d4f90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="7">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1547070451-e3857a8ea62a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="8">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1585728533484-ecd8c9c1432e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="9">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1496483353456-90997957cf99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=770&q=80" alt="10">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1562441473-62ebc5eaa1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="11">
+                </article>
+
+                <article class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1476459384017-8c9ae7a8e3d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="12">
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!------- end of GALLERY --------->
+    <!------ EXHIBITION ----->
+
+    <section id="exhibition" >
+        <div class="container exhibition__container">
+            <h2 class="exhibition__title">Exhibitions</h2>
+            <div class="empty exhibition__empty"></div>
+            <div class="exhibition__head">
+                <p>Sapiente optio hic neque veniam atque voluptas fugiat, harum veritatis magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure vero numquam repellat quod voluptatum dolores cumque ipsam odit. Iste, adipisci!</p>
+                <a href="mailto:kate.horakova@gmail.com" class="contact__btn exhibition__btn">
+                    <i class="uil uil-arrow-up-right"></i>
+                    <p>CONTACT - SEND ME AN EMAIL</p>
+                </a>
+            </div>
+            <div class="exhibitions__gallery">
+                <article>
+                    <img src="https://images.unsplash.com/photo-1576135711730-51049b41de78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="1">
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1676964629382-2205237b42e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="2">
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1665417023794-03e916d8411a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80" alt="3">
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1482012792084-a0c3725f289f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="4">
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1617978441921-29f82b7aee2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="5">
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1601039727490-458d3e7f2799?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="6">
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1677042926696-468a92c6d633?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="7">
+                </article>  
+            </div>
+        </div>
+    </section>
+    <!------ end of EXHIBITIONS ------->
+
+    <!-------- FOOTER ----------->
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__head">
+                <h2 class="footer__title">support@gmail.com</h2>
+                <a href="mailto:kate.horakova@gmail.com" class="footer__btn"><i class="uil uil-arrow-up-right"></i></a>
+            </div>
+            <ul class="footer__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibition">Exhibitions</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <!----- swiper JS CDN ----->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!------- JAVASCRIPT ----------->
+    <script src="./main.js"></script>
+</body>
+</html>
